@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Data_Structures_Console/1.0.0": {
+        "dependencies": {
+          "NLog": "5.0.0-rc2"
+        },
+        "runtime": {
+          "Data_Structures_Console.dll": {}
+        }
+      },
+      "NLog/5.0.0-rc2": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.664"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Data_Structures_Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLog/5.0.0-rc2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F+y9t2obY9y0bxAaxvJJtbpBqFWkkqXZjMJPeT3SLqVvSNZq7aFax5cu57hkssHSDF1C/RsHT5uymcmPXgY9Vw==",
+      "path": "nlog/5.0.0-rc2",
+      "hashPath": "nlog.5.0.0-rc2.nupkg.sha512"
+    }
+  }
+}
